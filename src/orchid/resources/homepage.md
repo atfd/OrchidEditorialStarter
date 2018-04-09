@@ -1,16 +1,8 @@
 ---
-layout: index
-components:
-  - type: pageContent
-  - type: recentPosts
-    limit: 4
-    category: ':any'
-    noWrapper: true
-    templates:
-      - 'includes/postPreview_large'
-next: 'category1'
-docsBaseUrl: 'https://orchid.netlify.com/OrchidCore'
+next: category1
+title: Hello!
 ---
+Hello! This is an awesome demo website made by Annie Don. It's powered by JAMstack technologies: Orchid, Netlify Hosting and CMS, Github, and other goodies.
 
 Thanks for trying out Orchid! Feel free to take a look around, then head over to the 
 [User Manual]({{docsBaseUrl}}/wiki/userManual) to learn more about using Orchid to make your site
@@ -23,4 +15,5 @@ sharing a link on Twitter: <a
     class="twitter-share-button" 
     data-text="Check out the site I just made with @OrchidSSG, and new Static Site Generator for Java and Kotlin!" 
     data-url="{{site.baseUrl}}" data-show-count="false">Tweet</a>
+
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
